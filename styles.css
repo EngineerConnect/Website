@@ -1,146 +1,96 @@
 :root {
-    --grey: #393E46;
-    --whiteish: #EEEEEE;
-    --yellow: #FFD369;
-    --darkgrey: #222831;
-    --black: black;
+  --grey: #393e46;
+  --whiteish: #eeeeee;
+  --yellow: #ffd369;
+  --darkgrey: #222831;
+  --black: black;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
- 
+  font-family: "Ubuntu", sans-serif;
 }
 
 body {
-  color: #FFD369;
+  color: #ffd369;
   text-align: center;
-
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 900;
-    font-size: 250%;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 250%;
 }
-
 
 /* Title */
 
-#navbar {
-    background-color: var(--grey);
+.navbar {
+  background-color: var(--grey);
 }
 
 #navbar .logo {
-    color: var(--whiteish);
-    font-family: 'Roboto Slab', serif;
-    font-weight: 900;
-    font-size: 2.5rem;
-    margin-left: 3%;
-
+  color: var(--whiteish);
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-left: 3%;
 }
 
-@media (max-width: 425px) {
-    #navbar .logo {
-        font-size: 100%;
-    }
-    
+@media (max-width: 480px) {
+  #navbar .logo {
+    font-size: 100%;
+  }
 }
 
 @media (max-width: 1085) {
-    #logo-img {
-        height: 1rem;
-    }
-    
+  #logo-img {
+    height: 1rem;
+  }
 }
 
 #logo-img {
-    height: 15vw;
-    margin-right: 5%;
+  height: 15vw;
+  margin-right: 5%;
 }
 
 /* Main */
 
 #main {
-    background-color: var(--darkgrey);
-    padding: 1%;
+  background-color: var(--darkgrey);
+  padding: 1%;
 }
 
 #section1 {
-    padding: 5%;
+  padding: 5%;
 }
 
 #section1 p {
-    margin-top: 5%;
-    font-size: 1.5rem;
+  margin-top: 5%;
+  font-size: 1.5rem;
 }
 
 #section2 p {
-    margin: 5%;
-    font-size: 1.5rem;
+  margin: 5%;
+  font-size: 1.5rem;
 }
-
 
 /* Footer */
 
 #footer {
   background-color: var(--grey);
   color: var(--yellow);
-    padding: 2%;
+  padding: 2%;
 }
 
-#footer p{
-    font-size: 1.5rem;
-    font-weight: 500;
+#footer p {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .fab,
 .fas {
   margin: 15px;
   color: var(--whiteish);
-  
 }
-
-
-
-
-
-
-/* Main */
-
-
-/* 
-#main-background {
-    height: 80%;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-}
-
-#grass {
-
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    width: 100vw;
-} */
-
-/* #rocket {
-    position: absolute;
-    top: 5rem;
-} */
-
-
-
-
-/* #top {
-  display: flex;
-  align-items: center;
-} */
-
-/* .night-img{
-    height: 55rem;
-    width: 100vw;
-} */
