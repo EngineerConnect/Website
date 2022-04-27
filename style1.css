@@ -14,7 +14,8 @@
   body {
     color: #ffd369;
     text-align: center;
-    background-color: var(--darkgrey);
+    background-color: var(--grey);
+ 
     
     
   }
@@ -101,9 +102,7 @@
     background-color: var(--grey);
     color: var(--yellow);
     padding: 1%;
-    position:absolute;
-    bottom:0;
-    width:100%;
+
    
 
     
