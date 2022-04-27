@@ -49,7 +49,7 @@
   
     }
   
-  #navbar .logo{
+ .logo{
     color: var(--whiteish);
     font-family: "Roboto Slab", serif;
     font-weight: 900;
