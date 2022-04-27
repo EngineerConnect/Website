@@ -58,7 +58,7 @@
   }
   
   @media (max-width: 480px) {
-    #navbar .logo {
+     .logo {
       font-size: 5.5vw;
     }
   }
