@@ -16,6 +16,7 @@
     text-align: center;
     background-color: var(--darkgrey);
     
+    
   }
   
   h1 {
@@ -49,7 +50,7 @@
   
     }
   
- .logo{
+  #navbar .logo{
     color: var(--whiteish);
     font-family: "Roboto Slab", serif;
     font-weight: 900;
@@ -58,7 +59,7 @@
   }
   
   @media (max-width: 480px) {
-     .logo {
+    #navbar .logo {
       font-size: 5.5vw;
     }
   }
@@ -79,7 +80,7 @@
   #main {
     background-color: var(--darkgrey);
     padding: 5%;
- 
+    
 
   }
 
@@ -99,10 +100,13 @@
   #footer {
     background-color: var(--grey);
     color: var(--yellow);
-    padding: 2%;
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
+    padding: 1%;
+    position:absolute;
+    bottom:0;
+    width:100%;
+   
+
+    
 
   }
   
