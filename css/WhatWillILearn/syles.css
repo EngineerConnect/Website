@@ -1,0 +1,123 @@
+:root {
+    --grey: #393e46;
+    --whiteish: #eeeeee;
+    --yellow: #ffd369;
+    --darkgrey: #222831;
+    --black: black;
+  }
+  
+  * {
+  
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  body {
+    color: #ffd369;
+    text-align: center;
+    background-color: var(--grey);
+ 
+    
+    
+  }
+  
+  h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    font-size: 250%;
+    
+  }
+  
+  /* Title */
+  
+  .navbar {
+    background-color: var(--grey);
+    
+  }
+  
+  
+  .navbar-container {
+      font-size: 3rem;
+    }
+    
+    .nav-item {
+      padding: 0 18px;
+    }
+    
+    .nav-link {
+      font-size: 1.5rem;
+      color: var(--whiteish);
+      font-weight: 700;
+      font-family: "Ubuntu", sans-serif;
+  
+    }
+  
+  #navbar .logo{
+    color: var(--whiteish);
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-left: 3%;
+  }
+  
+  @media (max-width: 480px) {
+    #navbar .logo {
+      font-size: 5.5vw;
+    }
+  }
+  
+  @media (max-width: 1085) {
+    #logo-img {
+      height: 1rem;
+    }
+  }
+  
+  #logo-img {
+    height: 15vw;
+    margin-right: 5%;
+  }
+  
+  /* Main */
+  
+  #main {
+    background-color: var(--darkgrey);
+    padding: 5%;
+    
+
+  }
+
+  
+  
+
+  .objectives {
+      font-size: 2.0rem;
+      font-weight: 500;
+      list-style-position: inside;
+     
+  }
+  
+  
+  /* Footer */
+  
+  #footer {
+    background-color: var(--grey);
+    color: var(--yellow);
+    padding: 1%;
+
+   
+
+    
+
+  }
+  
+  #footer p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .fab,
+  .fas {
+    margin: 15px;
+    color: var(--whiteish);
+  }
+
+
