@@ -49,19 +49,19 @@ h1 {
     }
   
 
-#navbar .logo {
-  color: var(--whiteish);
-  font-family: "Roboto Slab", serif;
-  font-weight: 900;
-  font-size: 2.5rem;
-  margin-left: 3%;
-}
-
-@media (max-width: 480px) {
-  #navbar .logo {
-    font-size: 100%;
+ .logo{
+    color: var(--whiteish);
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-left: 3%;
   }
-}
+  
+  @media (max-width: 480px) {
+     .logo {
+      font-size: 5.5vw;
+    }
+  }
 
 @media (max-width: 1085) {
   #logo-img {
