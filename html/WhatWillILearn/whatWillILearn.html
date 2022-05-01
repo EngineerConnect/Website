@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </script>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./faviconio/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../faviconio/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon_io/favicon-16x16.png">
      <!--Font Awesome-->
      <script src="https://kit.fontawesome.com/4336aaf0f1.js" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
@@ -15,57 +16,58 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-     <!-- Bootstap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Styles -->
     <link rel="stylesheet" href="../../css/WhatWillILearn/styles.css">
     <title>EngineerConnect</title>
 </head>
 <body>
-    <section id="title">
-        <!-- Nav Bar -->
-        <div class=" navbar-container" id="navbar">
-            <nav class="navbar navbar-expand-lg navbar-dark" >
-                <a class="navbar-brand logo" href="../../index.html"><img id="logo-img" src="../../assets/logo.png" alt="logo-img">Engineer Connect</a>
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="../WhatWillILearn/whatWillILearn.html">What Will I Learn?</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="aboutPresenter.html">About Presenter</a>
-                    </li> -->
-                </ul>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
+    <header>
+            <a href="../../index.html" class="logo">EngineerConnect</a>
+            <ul id="desktop-nav">
+                <li id="active-desktop"><a href="../../index.html">Home</a></li>
+                <li><a href="../WhatWillILearn/whatWillILearn.html">What Will I Learn?</a></li>
+                <li><a href="../AboutPresenter/aboutPresenter.html">About Presenter</a></li>
+                <li><a href="../PastPresenters/PastPresenters.html">Past Presenters</a></li>
+            </ul>
+        <div id="mobile-nav">
+            <a href="../../index.html" class="mobile-logo">EngineerConnect</a>
+            <div id="nav-items">
+                <a class="" href="../../index.html" class="">Home</a>
+                <a href="../WhatWillILearn/whatWillILearn.html" class="active-mobile">What Will I Learn?</a>
+                <a href="../AboutPresenter/aboutPresenter.html" class="">About Presenter</a>
+                <a href="../PastPresenters/PastPresenters.html">Past Presenters</a>
+            </div>
+            <a href="javascript:void(0)" class="icon" onclick="Open()"><i class="fa fa-bars"></i></a>
         </div>
-
-    <section id="main">
-        <div id="main-section">
-            <h1>You Will...</h1>
-            <ol>
-                <li class="objectives">Understand what careers are available,</li>
-                <li class="objectives">Learn whats its like to be an engineer,</li>
-                <li class="objectives">Know the education needed to become an engineer</li>
-            </ol>
-        </div>
+    </header>
+    <section>
+        <img src="../../assets/space.jpg" alt="" id="space">
+        <h1 id="text">What You Will Learn</h1>
+        <a href="#info" id="btn">Learn More</a>
+        <img src="../../assets/mountain.png" alt="" id="mountain">
     </section>
-
+    <div name="info" class="about-section" id="info"> 
+        <h2>You Will...</h2>
+        <ol>
+            <li class="objectives">Understand what careers are available</li>
+            <li class="objectives">Learn whats its like to be an engineer</li>
+            <li class="objectives">Know the education needed to become an engineer</li>
+        </ol>        
+    </div>
     <!-- Footer Section --> 
     <footer id="footer">
         <!-- Instagram icon -->
         <a href="https://instagram.com/engineerconnect_club?igshid=YmMyMTA2M2Y="><i class="footer-icon fab fa-instagram fa-3x"></i></a>
         <!-- Mail Icon -->
         <a href="mailto:engineerconnect0@gmail.com"><i class="footer-icon fas fa-envelope fa-3x"></i></a>
+        <!-- Remind App Link -->
+        <a href="https://www.remind.com/join/hde2eh?utm_medium=ios"><i class="far fa-bell fa-3x"></i></a>
+        <p>Engineer Connect is hosted by the Council Rock South Technology Club</p>
         
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+<script src="../../js/WhatWillILearn/app.js"></script>
 </html>
+
+
