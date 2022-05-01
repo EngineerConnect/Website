@@ -144,6 +144,15 @@ body {
 
 /* Mobile Version */
 @media (max-width: 768px) {
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: none;
+  }
+  
   #mobile-nav {
     overflow: hidden;
     position: relative;
