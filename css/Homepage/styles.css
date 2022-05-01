@@ -149,8 +149,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
-    background: none;
+    z-index: 10000;
+    background: rgba(255, 255, 255, 0.1);
   }
   
   #mobile-nav {
@@ -184,7 +184,7 @@ body {
     top: 0;
   }
 
-  #mobile-nav a:hover {
+  #mobile-nav #nav-items a:hover {
     background-color: var(--whiteish);
     color: black;
   }
@@ -222,7 +222,9 @@ body {
       margin-top: 20%;
     }
   }
-
+  #space {
+    z-index: -1;
+  }
   @media (min-width: 540px), (max-width: 590px) {
     #space {
       width: 100%;
