@@ -294,6 +294,11 @@
     z-index: 8;
     position: absolute;
   }
+
+  #horanzy-download {
+    color: var(--whiteish);
+    
+  }
   
   /* Footer */
   

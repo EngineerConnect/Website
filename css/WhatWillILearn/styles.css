@@ -185,7 +185,7 @@ body {
     top: 0;
   }
 
-  #mobile-nav  #nav-items a:hover {
+  #mobile-nav #nav-items a:hover {
     background-color: var(--whiteish);
     color: black;
   }
