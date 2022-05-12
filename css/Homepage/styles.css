@@ -27,6 +27,14 @@ body {
   text-align: center;
 }
 
+h3 {
+  font-size: 2.0rem;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  margin-top: 2%;
+}
+
 /* Desktop Version */
 @media (min-width: 768px) {
   header {
@@ -317,6 +325,9 @@ section {
   font-size: 1.5rem;
   z-index: 8;
 }
+
+
+
 
 /* Footer */
 
